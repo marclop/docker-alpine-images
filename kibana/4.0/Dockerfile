@@ -27,5 +27,5 @@ RUN apk update \
 EXPOSE 5601
 
 # Working directory
-WORKDIR ["/opt/$PKG_NAME"]
+WORKDIR ["/opt/$KIBANA_PKG"]
 CMD ["bin/kibana"]

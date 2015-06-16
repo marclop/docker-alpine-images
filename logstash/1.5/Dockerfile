@@ -25,4 +25,4 @@ ENV LOGSTASH_CONFIG /etc/$PKG_NAME/logstash.conf
 # Add logstas config file
 ADD logstash.json $LOGSTASH_CONFIG
 
-CMD ["/opt/$LOGSTASH_PKG/bin/logstash ", "-f ", "$LOGSTASH_CONFIG"]
+CMD /opt/$KIBANA_PKG/bin/logstash -f $LOGSTASH_CONFIG
