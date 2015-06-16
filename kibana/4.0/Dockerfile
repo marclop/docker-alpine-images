@@ -28,4 +28,4 @@ EXPOSE 5601
 
 # Working directory
 WORKDIR ["/opt/$KIBANA_PKG"]
-CMD ["bin/kibana"]
+CMD ["/opt/kibana/bin/kibana"]
