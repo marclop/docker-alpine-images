@@ -4,7 +4,7 @@ MAINTAINER Marc Lopez <marc5.12@outlook.com>
 
 # Set environment variables
 ENV PKG_NAME logstash
-ENV LOGSTASH_VERSION 1.5.0
+ENV LOGSTASH_VERSION 1.5.3
 ENV LOGSTASH_PKG $PKG_NAME-$LOGSTASH_VERSION
 ENV LOGSTASH_URL https://download.elastic.co/$PKG_NAME/$PKG_NAME/$LOGSTASH_PKG.tar.gz
 

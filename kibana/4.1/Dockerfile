@@ -3,7 +3,7 @@ FROM alpine:3.2
 MAINTAINER Marc Lopez <marc5.12@outlook.com>
 
 # Set environment variables
-ENV KIBANA_VERSION 4.1.0
+ENV KIBANA_VERSION 4.1.1
 ENV PKG_NAME kibana
 ENV PKG_PLATFORM linux-x64
 ENV KIBANA_PKG $PKG_NAME-$KIBANA_VERSION-$PKG_PLATFORM
